@@ -1,5 +1,5 @@
 {
-  "name": "components",
+  "name": "@mono/components",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.13.1",
-  "dependencies": {
-    "@mono/utils": "workspace:*"
-  }
+  "packageManager": "pnpm@10.13.1"
 }
