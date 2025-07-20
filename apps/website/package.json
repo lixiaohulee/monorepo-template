@@ -5,13 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc ./index.ts --outDir ./dist/"
+    "build": "tsc ./index.ts --outDir ./dist/",
+    "start": "vite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.13.1",
   "dependencies": {
-    "@lixiaohupersonal/utils": "workspace:*"
+    "@lixiaohupersonal/components": "workspace:*",
+    "@lixiaohupersonal/utils": "workspace:*",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^7.0.5"
   }
 }

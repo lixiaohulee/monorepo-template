@@ -1,5 +1,11 @@
 # @lixiaohupersonal/components
 
+## 1.2.0
+
+### Minor Changes
+
+- add vite
+
 ## 1.1.5
 
 ### Patch Changes

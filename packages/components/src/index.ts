@@ -1,9 +1,2 @@
-import func from '@lixiaohupersonal/utils';
-
-
-const start = () => {
-    console.log('components start-----')
-    func();
-}
-
-start();
+export { default as Button } from './Button'; 
+export { default as Toast } from './Toast';
