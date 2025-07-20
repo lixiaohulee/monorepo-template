@@ -1,4 +1,4 @@
-import func from '@lixiaohulee/utils';
+import func from '@lixiaohupersonal/utils';
 
 
 const start = () => {
