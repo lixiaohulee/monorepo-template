@@ -12,7 +12,17 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
-  packages/components: {}
+  apps/website:
+    dependencies:
+      '@lixiaohupersonal/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
+
+  packages/components:
+    dependencies:
+      '@lixiaohupersonal/utils':
+        specifier: workspace:*
+        version: link:../utils
 
   packages/utils:
     dependencies:
