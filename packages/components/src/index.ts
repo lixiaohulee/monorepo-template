@@ -1,3 +1,9 @@
-import func from '@mono/utils';
+import func from '@lixiaohulee/utils';
 
-func();
+
+const start = () => {
+    console.log('components start-----')
+    func();
+}
+
+start();

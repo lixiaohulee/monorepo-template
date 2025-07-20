@@ -1,14 +1,18 @@
 {
-  "name": "@mono/components",
+  "name": "@lixiaohulee/components",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc ./src/index.ts --outDir ./dist/"
+    "build": "tsc ./src/index.ts --outDir ./dist/",
+    "start": "pnpm build && node ./dist/index"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.13.1"
+  "packageManager": "pnpm@10.13.1",
+   "dependencies": {
+    "@lixiaohulee/utils": "workspace:*"
+  }
 }
